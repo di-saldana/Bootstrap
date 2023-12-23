@@ -14,7 +14,7 @@
 
     <nav class="navbar bg-light">
       <a class="navbar-brand" href="#">
-        <img src="spotifav-logo.png" width="50px" class="navbar-brand" alt="spotifav-logo">
+        <img src="spotifav-logo-blue-01.png" width="50px" class="navbar-brand" alt="spotifav-logo">
       </a>
     </nav>
 
@@ -34,17 +34,46 @@
           <a class="nav-link active" href="music_rec.html">Music Rec</a>
         </li>
       </ul>
-
       <form class="d-flex">
         <input class="form-control me-2" placeholder="Search">
-        <button class="btn" type="submit" style="color: #1ED760;">
-          <i class="fa-solid fa-magnifying-glass" style="color: #1ED760;"></i> 
+        <button class="btn" type="submit" style="color: blue">
+          <i class="fa-solid fa-magnifying-glass" style="color: blue"></i> 
         </button>
       </form>
-
     </div>
     </div>
   </nav>
+
+  <div class="container mt-4">
+    <form>
+      <div class="mb-3 row">
+        <label for="name" class="col-sm-2 col-form-label">Name</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+      </div>
+
+      <div class="mb-3 row">
+        <label for="artist" class="col-sm-2 col-form-label">Artist</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="artist" placeholder="Artist Name">
+        </div>
+      </div>
+
+      <div class="mb-3 row">
+        <label for="songRec" class="col-sm-2 col-form-label">Song Rec</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="songRec" placeholder="Recommended Song">
+        </div>
+      </div>
+      
+      <div class="mb-3 row">
+        <div class="col-sm-10 offset-sm-2">
+          <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </form>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/15faf91d14.js" crossorigin="anonymous"></script>
